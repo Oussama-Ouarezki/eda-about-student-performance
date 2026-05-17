@@ -65,3 +65,34 @@
 ## 💡 Ce que les graphes seuls peuvent révéler
 
 ```
+Absences        →  corrélation négative forte avec GPA        ✅ confirmé
+Temps d'étude   →  corrélation positive mais faible           ⚠️ nuancé  
+Tutoring        →  léger boost, biais de sélection probable   ⚠️ nuancé
+Support parental→  impact positif, indépendant de l'éducation ✅ confirmé
+Ethnie          →  aucun impact significatif                  ✅ confirmé
+Activités       →  léger impact positif (sauf bénévolat)      ⚠️ nuancé
+```
+
+---
+
+## Stack
+
+```bash
+pip install pandas seaborn matplotlib numpy
+```
+
+---
+
+## Structure
+
+```
+📄 notebook.ipynb     ← analyse complète
+📄 README.md
+📁 input/             ← Student_performance_data_.csv
+```
+
+---
+
+## Conclusion
+
+> Une EDA bien menée avec uniquement des graphes peut répondre à des questions complexes sur la performance académique. Le vrai enseignement ici : **l'assiduité prime sur tout** — ni l'ethnie, ni l'éducation des parents, ni les activités n'ont un effet aussi mesurable que le simple fait d'être présent en classe.
